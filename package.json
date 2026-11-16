@@ -1,0 +1,12 @@
+{
+  "name": "yemen-heritage",
+  "version": "0.1.0",
+  "description": "Yemen Heritage - static web project",
+  "private": true,
+  "scripts": {
+    "serve": "python3 -m http.server 8000",
+    "check:js": "node --check src/js/main.js",
+    "verify": "bash scripts/verify.sh"
+  },
+  "license": "MIT"
+}
